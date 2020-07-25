@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Color Skin -->
+  <link rel="stylesheet" href="css/skin/skin.css">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <!-- Phone CSS -->
+  <link rel="stylesheet" href="css/iphone.css">
+
+
+</head>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .info h4 {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 50px 10px;
+  }
+
+  .container {
+    left: 10%;
+    right: 10%;
+  }
+
+  .mob-form {
+    width: 60%;
+    margin: auto;
+    display: flexbox;
+  }
+
+  .mob-form .star {
+    color: red;
+  }
+
+  input[type=text],
+  input[type=number],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    padding: 20px 12px 0 0;
+    display: inline-block;
+  }
+
+  .sign-up {
+    background-color: #ffffff;
+    color: #6400ae;
+    padding: 12px 20px;
+    border: 1px solid #6400ae;
+    position: relative;
+    border-radius: 4px;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px #808080;
+  }
+
+  .sign-up:hover {
+    background-color: #6400ae;
+    color: #ffffff;
+  }
+
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 900px) {
+    .mob-form {
+      width: 90%;
+    }
+  }
+</style>
+
+<body>
+
+  <!-- Top section -->
+
+  <header class="header">
+    <div class="container">
+      <div class="top-bar">
+        <div class="row">
+          <div class="back-arrow">
+            <a href="index.html"><i class=" fas fa-arrow-left"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="info">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h4>
+          Fill this form to Create an Account.
+        </h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+
+  <div class="mob-form">
+    <div class="container">
+
+      <form action="/action_page.php">
+        <div class="col-100">
+          <label for="fname">
+            <m>Full Name</m> <span class="star">*</span>
+          </label>
+        </div>
+        <div class="col-100">
+          <input type="text" id="name" name="name" placeholder="">
+        </div>
+
+        <div class="col-100">
+          <label for="number">
+            <m>Contact No.</m> <span class="star">*</span>
+          </label>
+        </div>
+        <div class="col-100">
+          <input type="number" id="contact" name="contact" placeholder="">
+        </div>
+
+        <div class="col-100">
+          <label for="email">
+            <m>Your Email</m><span class="star">*</span>
+          </label>
+        </div>
+        <div class="col-100">
+          <input type="text" id="email" name="email" placeholder="">
+        </div>
+
+        <div class="col-100">
+          <label for="address">
+            <m>Address</m><span class="star">*</span>
+          </label>
+        </div>
+        <div class="col-100">
+          <input type="text" id="address" name="address" placeholder="">
+        </div>
+
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <div class="row justify-content-center">
+
+          <p style="margin-bottom: 40px;">By creating an account you agree to our <a href="#"
+              style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+        </div>
+
+        <div class="row">
+          <a href="#" class="sign-up">Sign up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Footer Section -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="footer-logo">
+            <a href="#"><span class="logo-mob"></span> MOBILES</a>
+          </div>
+          <div class="footer-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit quibusdam vero
+              facere dolorem.</p>
+          </div>
+          <div class="footer-social-link">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> Copyright &copy; The Mobiles 2020</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- Main Js -->
+  <script src="js/phones.js"></script>
+  <!-- Jquery -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

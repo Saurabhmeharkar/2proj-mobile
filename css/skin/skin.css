@@ -1,0 +1,73 @@
+/* Payment page */
+.continue-btn .btn:hover,
+/* iphone page */
+header .top-bar,
+#myBtn,  /*up button*/
+/* main page */
+.header .navbar-light .navbar-toggler-icon::after,
+.header .navbar-light .navbar-toggler-icon::before,
+.header .navbar-light .navbar-toggler-icon,
+.footer,
+.mybtn2,
+.testimonial-section .owl-carousel .owl-nav button.owl-next:hover,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial-section::before,
+.product-section .owl-carousel .owl-nav button.owl-next,
+.product-section .owl-carousel .owl-nav button.owl-prev,
+.service-section .service-item:hover,
+.section-title .title::before,
+.home-section,
+.header{
+    background-color: #6400ae;
+}
+
+/* Buttos and hover */
+/* Payment page */
+.continue-btn .btn,
+.logo i,
+/* Iphone page */
+.second-sec .heighlight-content li i,
+/* Main page */
+.footer .footer-social-link a:hover i,
+.contact-section .contact-item h5,
+.contact-section .contact-item .icon i,
+.testimonial-section .owl-carousel .owl-nav button.owl-next,
+.testimonial-section .owl-carousel .owl-nav button.owl-prev,
+.testimonial-section .testi-item .client-info h5,
+.product-section .product-content .product-price .new-price,
+.service-section .service-item .icon i,
+.about-section .about-content ul li i,
+.section-title .title,
+.mybtn1:hover,
+.mybtn1{
+    color: #6400ae;
+}
+
+/* For 2px border */
+.testimonial-section .testi-item .client-info img{
+    border: 2px solid #6400ae;
+} 
+
+/* For 1px border */
+
+.contact-section .contact-form .form-control:focus{
+    border-bottom: 2px solid #6400ae;
+}
+/* Payment page */
+input[type="text"]:focus,
+.continue-btn .btn{
+    border: 1px solid #6400ae;
+}
+/* Main page */
+.newsletter-section .newsletter-form .form-control{
+    border: 1px solid #6400ae;
+}
+
+@media(max-width: 991px){
+    .header .navbar #collapsibleNavbar .nav-item .nav-link{
+         color: #6400ae;
+    }
+}
+
+/* colors
+6400ae */
