@@ -209,7 +209,7 @@
           max-width: 250px;
     }
     .about-section .about-img img{
-        left: 0;
+        left: 7%;
     }
 }
 @media(max-width: 321px){
