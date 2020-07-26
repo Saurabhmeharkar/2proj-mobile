@@ -197,6 +197,9 @@
         max-height: 260px;
         max-width: 210px;
     }
+     .about-section .about-img img{
+        left: 10%;
+    }
 }
 @media(max-width: 321px){
     .container{
