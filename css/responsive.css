@@ -154,7 +154,7 @@
         left: 10%;
     }
     .about-section .about-img img{
-        height: 460px;
+        height: 400px;
         width: 300px;
 
     }
@@ -201,10 +201,6 @@
     .about-section .about-img img{
         max-height: 260px;
         max-width: 210px;
-    }
-    .home-section .home-img img{
-        max-height: 400px;
-          max-width: 250px;
     }
 }
 @media(max-width: 321px){
