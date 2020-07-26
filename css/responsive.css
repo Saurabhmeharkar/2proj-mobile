@@ -117,9 +117,7 @@
         position: sticky;
         top: -1;
     }
-    /* .navbar .navbar-expand-lg .navbar-light{
-        position: relative;
-    } */
+
     .home-section .bg-shapes div:nth-child(2){
         top: 55%;
         left: -5%;
@@ -156,7 +154,7 @@
         left: 10%;
     }
     .about-section .about-img img{
-        height: 430px;
+        height: 460px;
         width: 300px;
 
     }
