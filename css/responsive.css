@@ -193,12 +193,16 @@
     }
 }
 @media(max-width: 321px){
-    .about-section .about-img img{
-        max-height: 260px;
-        max-width: 210px;
+    .home-section .home-img img{
+        max-height: 400px;
+          max-width: 250px;
+    }
+        .about-section .about-img img{
+        max-height: 320px;
+        max-width: 250px;
     }
      .about-section .about-img img{
-        left: 10%;
+        left: 0;
     }
 }
 @media(max-width: 321px){
