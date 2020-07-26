@@ -117,9 +117,9 @@
         position: sticky;
         top: -1;
     }
-    /* .navbar .navbar-expand-lg .navbar-light{
-        position: relative;
-    } */
+     .home-section{
+        padding-top: 50px;
+    } 
     .home-section .bg-shapes div:nth-child(2){
         top: 55%;
         left: -5%;
